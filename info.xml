@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Archetype Theme" version="1.0" description="Custom user interface. Features a total visual overhaul with animations and quality of life changes." author="nurver, realmadrid1809,&#10;AnonymousPoke" weblink="https://forums.pokemmo.com/index.php?/topic/149494-gui-archetype-total-pokemmo-visual-overhaul-including-animations-and-customizable-options/">
+    <themes>
+        <theme path="data/themes" name="Archetype Theme" revision="1" is_mobile="false"/>
+    </themes>
+</resource>
