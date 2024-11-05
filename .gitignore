@@ -1,8 +1,0 @@
-*.pak
-*.atlas
-resources.zip
-*/*
-!sprites/atlas
-!themes/archetype
-!icons
-!mods
