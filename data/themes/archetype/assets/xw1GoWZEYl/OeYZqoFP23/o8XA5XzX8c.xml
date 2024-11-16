@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
-
 	<theme name="customize-widget" ref="base-tabbed-frame-customization">
 	<param name="titleAreaTop"><int>10</int></param>
 	<param name="titleAreaLeft"><int>12</int></param>
@@ -8,13 +7,14 @@
 	<param name="titleAreaBottom"><int>30</int></param>
 	<param name="closeButtonX"><int>-28</int></param>
 	<param name="closeButtonY"><int>12</int></param>
-		<param name="border"><border>35,10,10,10</border></param>
-		<param name="minWidth"><int>600</int></param>
-		<param name="minHeight"><int>350</int></param>
+		<param name="border"><border>46,16,16,10</border></param>
+		<!--<param name="border"><border>45,5,5,5</border></param>-->
+		<param name="minWidth"><int>680</int></param>
+		<param name="minHeight"><int>450</int></param>
 		<theme name="dialoglayout" ref="dialoglayout">
 			<theme name="dialoglayout" ref="dialoglayout">
 				<theme name="combobox" ref="combobox" allowWildcard="true">
-					<param name="minWidth"><int>200</int></param>
+					<param name="minWidth"><int>260</int></param>
 				</theme>
 				<theme name="editfield" ref="editfield">
 					<theme name="renderer" ref="renderer">
@@ -53,7 +53,7 @@
 	<theme name="color-button" ref="button" allowWildcard="true">
 		<param name="font"><font>pb-dark</font></param>
 		<param name="textAlignment"><enum type="alignment">center</enum></param>
-		<param name="background"><image>color-picker</image></param>
+		<param name="background"><image>color-picker.background</image></param>
 		<param name="minWidth"><int>20</int></param>
 		<param name="minHeight"><int>20</int></param>
 	</theme>

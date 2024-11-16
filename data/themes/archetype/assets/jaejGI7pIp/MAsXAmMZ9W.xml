@@ -525,11 +525,23 @@
 			<area xywh="33,78,4,7"/>
 		</grid>
 
-		<area name="color-picker-default" xywh="5,308,13,11" splitx="L2,R2" splity="T2,B2" inset="1"/>
+		<!--<area name="color-picker-default" xywh="5,308,13,11" splitx="L2,R2" splity="T2,B2" inset="1"/>
 		<select name="color-picker">
 			<alias ref="color-picker-default" inset="-2" if="keyboardFocus | hover"/>
 			<alias ref="color-picker-default"/>
-		</select>
+		</select>-->
+
+		<area name="color-picker-selected" xywh="5,308,13,11" splitx="L2,R2" splity="T2,B2" inset="0,0"/>
+    	<area name="color-picker" xywh="90,308,13,11" splitx="L2,R2" splity="T2,B2" inset="0,0"/>
+    	<area name="color-picker-disabled" xywh="116,308,13,11" splitx="L2,R2" splity="T2,B2" inset="0,0"/>
+    	<area name="color-picker-disabled-active" xywh="145,308,13,11" splitx="L2,R2" splity="T2,B2" inset="0,0"/>
+
+   		<select name="color-picker.background">
+      		<alias ref="color-picker-disabled-active" if="disabled + keyboardFocus"/>
+      		<alias ref="color-picker-disabled" if="disabled"/>
+      		<alias ref="color-picker-selected" if="keyboardFocus | selected | hover"/>
+      		<alias ref="color-picker"/>
+   		</select>
 
 		<area name="console.background" xywh="43,100,1,1" tint="#B0000000"/>
 		<area name="-console.cursor" xywh="5,291,6,1" center="true" inset="14,0,0,0"/>
