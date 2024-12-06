@@ -94,12 +94,18 @@
 						<param name="minWidth"><int>32</int></param>
 						<param name="minHeight"><int>32</int></param>
 						<theme name="label-dark" ref="label" allowWildcard="true">
+						<param name="font"><font>alphabeta-main-system</font></param>
 						<param name="border"><border>3,0,0,0</border></param>
 						<param name="textAlignment"><enum type="alignment">topright</enum></param>
 						</theme>
 					</theme>
 				</theme>
 			</theme>
+			<theme name="slot-health-progressbar" ref="-defaults" allowWildcard="true">
+              <param name=""><image>mi-hpbar-green.*</image></param>
+              <param name="border"><border>0</border></param>
+              <param name="minWidth"><int>100</int></param>
+            </theme>
 			<theme name="dialoglayout" ref="-defaults">
 				<param name="border"><border>10,0,10,0</border></param>
 				<param name="defaultGap"><dimension>5,5</dimension></param>
@@ -116,11 +122,16 @@
 						<param name="textAlignment"><enum type="alignment">topright</enum></param>
 					</theme>
 				</theme>
+				<theme name="slot-health-progressbar" ref="-defaults" allowWildcard="true">
+            		<param name=""><image>mi-hpbar-green.*</image></param>
+            		<param name="border"><border>0</border></param>
+            		<param name="minWidth"><int>100</int></param>
+         		</theme>
 				<theme name="editfield" ref="editfield">
 					<param name="font"><font>alphabeta</font></param>
 					<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 				</theme>
-				<theme name="container" ref="-defaults">
+				<!-- removed in halloween 2024 update?  <theme name="container" ref="-defaults">
 					<param name="background"><image>none</image></param>
 					<param name="border"><border>0,2,0,0</border></param>
 					<theme name="tabbedpane" ref="-defaults">
@@ -200,7 +211,7 @@
 							<action name="prevTab">CTRL SHIFT TAB</action>
 						</inputMapDef></param>
 					</theme>
-				</theme>
+				</theme> -->
 			</theme>
 		</theme>
 	</theme>
