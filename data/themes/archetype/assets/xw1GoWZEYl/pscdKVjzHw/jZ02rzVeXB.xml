@@ -93,13 +93,17 @@
 				<param name="minWidth"><int>88</int></param>
 			</theme>
 
-			<theme name="label-value-medium" ref="label" allowWildcard="true">
-				<param name="background"><image>ui-table-row.background</image></param>
-				<param name="textAlignment"><enum type="alignment">left</enum></param>
-				<param name="border"><border>6</border></param>
-				<param name="minHeight"><int>29</int></param>
-				<param name="minWidth"><int>153</int></param>
-			</theme>
+      		<theme name="label-value" ref="label" allowWildcard="true">
+        		<param name="background"><image>ui-inputbox.background</image></param>
+        		<param name="textAlignment"><enum type="alignment">left</enum></param>
+        		<param name="border"><border>6</border></param>
+      		</theme>
+      		<theme name="label-value-medium" ref="label" allowWildcard="true">
+        		<param name="background"><image>ui-inputbox.background</image></param>
+       	 		<param name="textAlignment"><enum type="alignment">left</enum></param>
+       	 		<param name="border"><border>6</border></param>
+        		<param name="minWidth"><int>160</int></param>
+     	 	</theme>
 			<theme name="label-value-small" ref="label" allowWildcard="true">
 				<param name="background"><image>ui-table-row.background</image></param>
 				<param name="textAlignment"><enum type="alignment">left</enum></param>
@@ -130,10 +134,14 @@
 				<param name="minWidth"><int>60</int></param>
 			</theme>
 
-			<theme name="label-title-medium" ref="label-value-medium" allowWildcard="true">
-				<param name="background"><image>ui-header.background</image></param>
-				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-			</theme>
+      		<theme name="label-title" ref="label-value" allowWildcard="true">
+       		 	<param name="background"><image>ui-header.background</image></param>
+      			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+     		</theme>
+    	  	<theme name="label-title-medium" ref="label-value-medium" allowWildcard="true">
+       			<param name="background"><image>ui-header.background</image></param>
+        		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+     		</theme>
 			<theme name="label-title-small" ref="label-value-small" allowWildcard="true">
 				<param name="background"><image>ui-header.background</image></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
