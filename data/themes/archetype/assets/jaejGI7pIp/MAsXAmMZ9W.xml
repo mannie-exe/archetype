@@ -942,10 +942,10 @@
 	</images>
 
 	<images file="res/water-levels.png" filter="lineal">
-		<area name="teardrop" tint="berry-progress" xywh="3,3,8,11"/>
-		<area name="teardrop.warning" tint="berry-progress-warning" xywh="13,3,8,11"/>
-		<area name="water-level.background" tint="water-background" xywh="3,17,14,15" splitx="L5,R5" splity="T5,B5"/>
-		<area name="water-level.warning" tint="water-warning" xywh="19,17,14,15" splitx="L5,R5" splity="T5,B5"/>
+		<area name="teardrop" tint="berry-progress" xywh="3,3,8,11" inset="4,-5,4,7"/>
+		<area name="teardrop.warning" tint="berry-progress-warning" xywh="13,3,8,11" inset="4,-5,4,7"/>
+		<area name="water-level.background" tint="water-background" xywh="3,17,14,15" splitx="L5,R5" splity="T5,B5" inset="4,-5,4,7"/>
+		<area name="water-level.warning" tint="water-warning" xywh="19,17,14,15" splitx="L5,R5" splity="T5,B5" inset="4,-5,4,7"/>
 
 		<composed name="water-level.dry.basic">
 			<alias ref="water-level.background"/>
