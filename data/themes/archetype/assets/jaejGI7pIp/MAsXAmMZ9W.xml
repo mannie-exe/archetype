@@ -942,26 +942,26 @@
 	</images>
 
 	<images file="res/water-levels.png" filter="lineal">
-		<area name="teardrop" xywh="3,3,8,11"/>
-		<area name="teardrop.warning" xywh="13,3,8,11"/>
-		<area name="water-level.background" xywh="3,17,14,15" splitx="L5,R5" splity="T5,B5"/>
-		<area name="water-level.warning" xywh="19,17,14,15" splitx="L5,R5" splity="T5,B5"/>
+		<area name="teardrop" tint="berry-progress" xywh="3,3,8,11"/>
+		<area name="teardrop.warning" tint="berry-progress-warning" xywh="13,3,8,11"/>
+		<area name="water-level.background" tint="water-background" xywh="3,17,14,15" splitx="L5,R5" splity="T5,B5"/>
+		<area name="water-level.warning" tint="water-warning" xywh="19,17,14,15" splitx="L5,R5" splity="T5,B5"/>
 
 		<composed name="water-level.dry.basic">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
+			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 		<composed name="water-level.dry.red">
-			<alias ref="water-level.warning" tint="#78FFFFFF"/>
-			<alias ref="teardrop.warning" center="true" inset="0,-36,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop.warning" center="true" inset="0,-18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop.warning" center="true" tint="#78FFFFFF"/>
-			<alias ref="teardrop.warning" center="true" inset="0,18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop.warning" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="water-level.warning" tint="berry-progress-disabled"/>
+			<alias ref="teardrop.warning" center="true" inset="0,-36,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop.warning" center="true" inset="0,-18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop.warning" center="true" tint="berry-progress-disabled"/>
+			<alias ref="teardrop.warning" center="true" inset="0,18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop.warning" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 
 		<animation name="water-level.dry" timeSource="enabled">
@@ -970,39 +970,39 @@
 		</animation>
 
 		<composed name="water-level.1">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
 			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 		<composed name="water-level.2">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
 			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#FFFFFF"/>
 			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#FFFFFFFF"/>
-			<alias ref="teardrop" center="true" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="teardrop" center="true" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 		<composed name="water-level.3">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
 			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#FFFFFF"/>
 			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#FFFFFFFF"/>
-			<alias ref="teardrop" center="true" tint="#FFFFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="#78FFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="teardrop" center="true"/>
+			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="berry-progress-disabled"/>
+			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 		<composed name="water-level.4">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
 			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#FFFFFF"/>
 			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#FFFFFFFF"/>
 			<alias ref="teardrop" center="true" tint="#FFFFFFFF"/>
 			<alias ref="teardrop" center="true" inset="0,18,0,0" tint="#FFFFFFFF"/>
-			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="#78FFFFFF"/>
+			<alias ref="teardrop" center="true" inset="0,36,0,0" tint="berry-progress-disabled"/>
 		</composed>
 		<composed name="water-level.5">
-			<alias ref="water-level.background" tint="#78FFFFFF"/>
+			<alias ref="water-level.background"/>
 			<alias ref="teardrop" center="true" inset="0,-36,0,0" tint="#FFFFFF"/>
 			<alias ref="teardrop" center="true" inset="0,-18,0,0" tint="#FFFFFFFF"/>
 			<alias ref="teardrop" center="true" tint="#FFFFFFFF"/>
