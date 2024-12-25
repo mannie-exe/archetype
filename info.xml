@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Archetype Theme" version="1.0" description="Total PokeMMO visual overhaul including animations and customizable options." author="nurver, realmadrid1809,&#10;AnonymousPoke" weblink="https://forums.pokemmo.com/index.php?/topic/149494-gui-archetype">
-    <themes>
-        <theme path="data/themes/archetype" name="Archetype Theme" revision="1" is_mobile="false"/>
+<resource name="Archetype Theme" version="1.1" description="Total PokeMMO visual overhaul including animations and customizable options." author="nurver, realmadrid1809,&#10;AnonymousPoke" weblink="https://forums.pokemmo.com/index.php?/topic/149494-gui-archetype">
+    <themes theme_revision="2">
+        <theme path="data/themes/archetype" name="Archetype Theme" is_mobile="false" sprite_atlas="data/sprites/atlas"/>
     </themes>
 </resource>
