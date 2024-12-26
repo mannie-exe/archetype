@@ -137,7 +137,7 @@
 		<param name="fadeDurationHide"><int>200</int></param>
 		<param name="border"><border>40,5,12,10</border></param>
     <theme name="breed-group1" ref="breed-group">
-	<param name="background"><image>ui-inputbox.background</image></param>
+	<param name="background"><image>ui-inputbox.background.static</image></param>
     </theme>
     <theme name="breed-group2" ref="breed-group">
       <param name="background"><image>none</image></param>

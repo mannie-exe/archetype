@@ -1943,6 +1943,9 @@
 			<alias ref="ui-inputbox.default"/>
 			<alias ref="ui-inputbox.selected" tint="main-color" if="selected | keyboardFocus"/>
 		</composed>
+		<composed name="ui-inputbox.background.static">
+			<alias ref="ui-inputbox.default"/>
+		</composed>
 		<composed name="ui-inputbox-bag.background">
 			<alias ref="ui-inputbox.background" inset="0,7,0,-2"/>
 		</composed>
