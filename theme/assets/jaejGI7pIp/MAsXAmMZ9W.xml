@@ -1758,6 +1758,14 @@
 			<alias ref="Bag-Icon" inset="4,4,-4,-4"/>
 		</composed>
 	</images>
+	
+	<images file="res/custom/FnTKbfeNe9/Breed-Icon.png" filter="lineal">
+		<area name="Breed-Icon" xywh="*" splitx="L17,R0" splity="T17,B0"/>
+		<composed name="Breed-Window">
+			<alias ref="Window-Background-Highlight"/>
+			<alias ref="Breed-Icon" tint="icon-color" inset="10,15,0,0"/>
+		</composed>
+	</images>
 
 	<images file="res/custom/u7wRvcSChn/Trainer-Card-Main.png">
 		<area name="Trainer-Card-Main" tint="sub-color" xywh="*" splitx="L1,R185" splity="T1,B155"/>
@@ -1811,7 +1819,8 @@
  			<alias ref="Highlight-Overlay"/>
 		</composed>
 		<composed name="Small-HUD-Overlay">
-			<grid weightsX="1,1,1,1,1,1,1,1,1" weightsY="1" inset="0,3,0,3">
+			<grid weightsX="1,1,1,1,1,1,1,1,1,1" weightsY="1" inset="0,3,0,3">
+				<alias ref="Button-Color-Pure" inset="8,12"/>
 				<alias ref="Button-Color-Pure" inset="8,12"/>
 				<alias ref="Button-Color-Pure" inset="8,12"/>
 				<alias ref="Button-Color-Pure" inset="8,12"/>
@@ -1822,12 +1831,13 @@
 				<alias ref="Button-Color-Pure" inset="8,12"/>
 				<alias ref="Button-Color-Pure" inset="8,12"/>
 			</grid>
-			<grid weightsX="1,1,1,1,1,1,1,1,1" weightsY="1" inset="17,20,-17,-13">
+			<grid weightsX="1,1,1,1,1,1,1,1,1,1" weightsY="1" inset="17,20,-17,-13">
 				<alias ref="Bag-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="Trainer-Card-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="Login-CharSelect-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="MM-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="PokeDex-Icon" tint="icon-color" sizeOverwriteH="49"/>
+				<alias ref="Breed-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="GTL-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="Mail-Icon" tint="icon-color" sizeOverwriteH="49"/>
 				<alias ref="Gift-Shop-Icon" tint="icon-color" sizeOverwriteH="49"/>
@@ -1867,13 +1877,13 @@
 		</composed>
 	</images>
 	
-	<images file="res/custom/FnTKbfeNe9/Breed-Icon.png" filter="lineal">
+	<!--<images file="res/custom/FnTKbfeNe9/Breed-Icon.png" filter="lineal">
 		<area name="Breed-Icon" xywh="*" splitx="L17,R0" splity="T17,B0"/>
 		<composed name="Breed-Window">
 			<alias ref="Window-Background-Highlight"/>
 			<alias ref="Breed-Icon" tint="icon-color" inset="10,15,0,0"/>
 		</composed>
-	</images>
+	</images>-->
 
 	<images file="res/custom/3Ao0Pd5DxU/Game-Corner-Icon.png" filter="lineal">
 		<area name="Game-Corner-Icon" xywh="*" splitx="L17,R0" splity="T17,B0"/>
