@@ -89,7 +89,7 @@
 						<param name="textAlignment"><enum type="alignment">center</enum></param>
 						<param name="mouseCursor"><cursor>cursor.text</cursor></param>
 					</theme>
-					<theme name="pc-slot" ref="-defaults">
+					<!--<theme name="pc-slot" ref="-defaults">
 						<param name="background"><image>pc-slot.background</image></param>
 						<param name="minWidth"><int>32</int></param>
 						<param name="minHeight"><int>32</int></param>
@@ -98,7 +98,7 @@
 						<param name="border"><border>3,0,0,0</border></param>
 						<param name="textAlignment"><enum type="alignment">topright</enum></param>
 						</theme>
-					</theme>
+					</theme>-->
 				</theme>
 			</theme>
 			<theme name="slot-health-progressbar" ref="-defaults" allowWildcard="true">
