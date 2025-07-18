@@ -297,6 +297,10 @@
 			<alias ref="Button-Color-Pure-Edge" inset="1" tint="#80FFFFFF"/>
 		</composed>
 
+		<composed name="incubator.background">
+			<alias ref="ui-misc-btn.background" inset="3,0,0,0"/>
+		</composed>
+		
 		<composed name="ui-header.background">
 			<alias ref="ui-misc-btn.background"/>
 		</composed>
@@ -1538,6 +1542,36 @@
 			<alias ref="dex-button-active" if="keyboardFocus"/>
 		</composed>
 	</images>
+	
+	<images file="res/custom/2sTxAVRCoW/PC-Slot-Disabled.png" filter="nearest">
+		<composed name="incubator-toggle.background" tint="xp-color" inset="-1,-2,-2,-2" if="selected">
+			<alias ref="Window-Accent-Edge"/>
+		</composed>
+		<composed name="incubator-slot.background" inset="1">
+			<!--<composed if="battlebox" tint="friendship-color">
+				<alias ref="Pure-Edge" inset="1" tint="#40ffffff"/>
+			</composed>-->
+			<!--<composed if="obey">-->
+				<alias ref="Window-Accent-Edge" tint="accent-color"/>
+				<alias ref="Sub-Color-Pure-Edge" inset="1"/>
+				<area xywh="*" tint="accent-color" inset="2"/>
+			<!--</composed>-->
+			<select>
+				<composed tint="hp-high-color" if="selected + filtered">
+					<alias ref="Pure-Edge" tint="#60ffffff"/>
+					<alias ref="Window-Accent-Edge"/>
+					<alias ref="Window-Accent-Edge" tint="#60ffffff" inset="1"/>
+				</composed>
+				<composed tint="xp-color" if="selected">
+					<alias ref="Pure-Edge" tint="#30ffffff"/>
+					<alias ref="Window-Accent-Edge"/>
+				</composed>
+				<alias ref="Window-Accent-Edge" tint="hp-high-color" if="filtered"/>
+				<alias ref="Window-Accent-Edge" tint="accent-color"/>
+			</select>
+			<alias ref="dex-button-active" if="keyboardFocus"/>
+		</composed>
+	</images>
 			
 	<images>
 		<grid name="Poke-Summary-Window" weightsX="0,1" weightsY="0,1,0">
@@ -1762,6 +1796,10 @@
 	<images file="res/custom/FnTKbfeNe9/Breed-Icon.png" filter="lineal">
 		<area name="Breed-Icon" xywh="*" splitx="L17,R0" splity="T17,B0"/>
 		<composed name="Breed-Window">
+			<alias ref="Window-Background-Highlight"/>
+			<alias ref="Breed-Icon" tint="icon-color" inset="10,15,0,0"/>
+		</composed>
+		<composed name="Incubator-Window">
 			<alias ref="Window-Background-Highlight"/>
 			<alias ref="Breed-Icon" tint="icon-color" inset="10,15,0,0"/>
 		</composed>
