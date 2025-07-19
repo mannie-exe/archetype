@@ -53,6 +53,16 @@
 					<param name="color0"><font>chat-green</font></param>
 					<param name="color1"><font>chat-default</font></param>
 					<param name="color2"><font>chat-default</font></param>
+					<!--<param name="link"><font>chat-link</font></param>
+					<param name="normal"><font>chat-default</font></param>
+					<param name="shout"><font>chat-orange</font></param>
+					<param name="whisper"><font>chat-lightgreen</font></param>
+					<param name="trade"><font>chat-purple</font></param>
+					<param name="global"><font>chat-teal</font></param>
+					<param name="channel"><font>chat-yellow</font></param>
+					<param name="team"><font>chat-brown</font></param>
+					<param name="system"><font>chat-main-system</font></param>
+					<param name="battle"><font>chat-main-system</font></param>-->
 					<param name="link"><font>chat-link</font></param>
 					<param name="normal"><font>chat-default</font></param>
 					<param name="shout"><font>chat-orange</font></param>
@@ -63,6 +73,16 @@
 					<param name="team"><font>chat-brown</font></param>
 					<param name="system"><font>chat-main-system</font></param>
 					<param name="battle"><font>chat-main-system</font></param>
+					<param name="link-highlight"><font>chat-orange</font></param>
+					<param name="normal-highlight"><font>chat-orange</font></param>
+					<param name="shout-highlight"><font>chat-link</font></param>
+					<param name="whisper-highlight"><font>chat-orange</font></param>
+					<param name="trade-highlight"><font>chat-orange</font></param>
+					<param name="global-highlight"><font>chat-orange</font></param>
+					<param name="channel-highlight"><font>chat-orange</font></param>
+					<param name="team-highlight"><font>chat-orange</font></param>
+					<param name="system-highlight"><font>chat-orange</font></param>
+					<param name="battle-highlight"><font>chat-orange</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
 					<param name="images"><map>
