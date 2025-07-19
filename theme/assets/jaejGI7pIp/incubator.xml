@@ -16,7 +16,9 @@
       <param name="border"><border>9,10,2,0</border></param>
     </theme>-->
     <theme name="incubator-main-table" ref="table">
-      <param name="background"><image>incubator.background</image></param>
+	<!-- gray background accent -->
+      <!--<param name="background"><image>incubator.background</image></param>-->
+	  <param name="background"><image>none</image></param>
       <theme name="incubator-slot" ref="-defaults">
         <param name=""><image>pc-slot.*</image></param>
         <param name="minWidth"><int>62</int></param>
