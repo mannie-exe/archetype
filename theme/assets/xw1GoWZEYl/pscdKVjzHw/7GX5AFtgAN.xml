@@ -173,6 +173,18 @@
 		<param name="minHeight"><int>24</int></param>
 	</theme>
 
+	<theme name="chatframe-hidden-whisper" ref="chatframe-hidden" overwrite="true">
+		<param name="overlay"><image>none</image></param>
+	</theme>
+  
+	<theme name="chatframe-hidden-team" ref="chatframe-hidden" overwrite="true">
+		<param name="overlay"><image>none</image></param>
+	</theme>
+  
+	<theme name="chatframe-hidden-whisper-team" ref="chatframe-hidden" overwrite="true">
+		<param name="overlay"><image>none</image></param>
+	</theme>
+
 	<theme name="chat-tab-settings" ref="base-frame-vertical-tabs">
 		<param name="background"><image>Chat-Window</image></param>
 		<param name="minWidth"><int>580</int></param>
