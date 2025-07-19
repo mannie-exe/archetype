@@ -58,6 +58,11 @@
 		<param name="minHeight"><int>20</int></param>
 	</theme>
 	
+	<!--<theme name="color-dialog" ref="-defaults" allowWildcard="true">-->
+	<theme name="color-button-outline" ref="color-button" allowWildcard="true">
+		<param name="background"><image>color-picker-selected</image></param>
+	</theme>
+
 	<theme name="color-dialog" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>pb-dark</font></param>
 		<param name="background"><image>none</image></param>
