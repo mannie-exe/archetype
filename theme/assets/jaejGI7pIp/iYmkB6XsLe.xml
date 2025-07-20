@@ -1434,7 +1434,7 @@
 			<param name="background"><image>active-item-tl</image></param>
 		<param name="minWidth"><int>24</int></param>
 		<param name="defaultGap"><dimension>0,0</dimension></param>
-		<param name="border"><border>8,0,0,0</border></param>
+		<param name="border"><border>8,28,4,28</border></param>
 		<param name="namedGaps"><map/></param>
 		<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
 		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
