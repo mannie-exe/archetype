@@ -134,7 +134,7 @@
 					<theme name="tabbutton" ref="tabbutton">
 					</theme>
 				</theme>
-				<param name="minWidth"><int>250</int></param>
+				<param name="minWidth"><int>870</int></param>
 				<param name="background"><image>none</image></param>
 				<theme name="container" ref="-defaults">
 					<param name="border"><border>30,0,33,0</border></param>
