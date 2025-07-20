@@ -168,7 +168,7 @@
 	<theme name="category-view" ref="-defaults">
 		<param name="border"><border>27,0,5,5</border></param>
     <theme name="category-view-inner" ref="-defaults">
-      <param name="background"><image>none</image></param>
+      <param name="background"><image>ui-tab.background</image></param>
       <param name="border"><border>0,10,10,5</border></param>
       <param name="namedGaps"><map/></param>
       <theme name="label" ref="label" allowWildcard="true">
