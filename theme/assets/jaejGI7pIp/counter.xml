@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+  <images file="res/custom/counter/Archetype.png" filter="nearest">
+  <area name="ArchetypeIcon" xywh="*"/>
+  </images>
+  
   <theme name="encounter-counter" ref="resizableframe">
+	<param name="overlay"><image>ArchetypeIcon</image></param>
 	<param name="closeButtonX"><int>-22</int></param>
     <param name="closeButtonY"><int>3</int></param>
     <param name="titleAreaTop"><int>1</int></param>
