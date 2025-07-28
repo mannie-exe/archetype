@@ -1500,10 +1500,6 @@
 			<alias ref="Button-Color-Pure-Edge" inset="2"/>
 			<alias ref="Pokeball-Icon" tint="icon-color" inset="11,6"/>
 		</composed>
-		<composed name="Shiny-Window">
-			<alias ref="Window-Background-Highlight"/>
-			<alias ref="Pokeball-Icon" tint="icon-color" inset="10,15,0,0"/>
-		</composed>
 		<grid name="Battle-Pokeball-Icon" weightsX="0,0,1" weightsY="1,0,1" inset="0,0,0,0">
 			<area xywh="0,0,0,0" sizeOverwriteH="10" sizeOverwriteV="1"/>
 			<area xywh="0,0,0,0" sizeOverwriteH="38" sizeOverwriteV="1"/>
@@ -1516,7 +1512,19 @@
 			<area xywh="0,0,0,0" sizeOverwriteH="1" sizeOverwriteV="1"/>
 		</grid>
 	</images>
-
+	
+	<images file="res/custom/cCnds5n44L/Shiny-Sparkle-Icon.png" filter="lineal">
+		<area name="Shiny-Sparkle-Icon" xywh="*" splitx="L19,R0" splity="T19,B0"/>
+		<composed name="Shiny-Window">
+			<alias ref="Window-Background-Highlight"/>
+			<alias ref="Shiny-Sparkle-Icon" tint="icon-color" inset="9,14,0,0"/>
+		</composed>
+		<composed name="Counter-Window">
+			<alias ref="Tabbed-Window-Background-Highlight"/>
+			<alias ref="Shiny-Sparkle-Icon" tint="icon-color" inset="9,14,0,0"/>
+		</composed>
+	</images>
+	
 	<images file="res/custom/2sTxAVRCoW/PC-Slot-Disabled.png" filter="nearest">
 		<composed name="pc-toggle.background" tint="xp-color" inset="-1,-2,-2,-2" if="selected">
 			<alias ref="Window-Accent-Edge"/>
