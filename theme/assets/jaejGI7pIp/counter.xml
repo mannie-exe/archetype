@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
   <images file="res/custom/counter/Archetype.png" filter="nearest">
-  <area name="ArchetypeIcon" xywh="*" inset="18,12,0,0" splitx="L23,R0" splity="T23,B0"/>
+  <area name="ArchetypeIcon" xywh="*" inset="20,12,0,0" splitx="L23,R0" splity="T23,B0"/>
   
   </images>
   
   <theme name="encounter-counter" ref="resizableframe">
 	<param name="overlay"><image>ArchetypeIcon</image></param>
 	<param name="closeButtonX"><int>-22</int></param>
-    <param name="closeButtonY"><int>3</int></param>
+    <param name="closeButtonY"><int>2</int></param>
     <param name="titleAreaTop"><int>1</int></param>
     <param name="titleAreaLeft"><int>1</int></param>
     <param name="titleAreaRight"><int>-1</int></param>
     <param name="titleAreaBottom"><int>1</int></param>
-    <param name="border"><border>10,0,0,0</border></param>
+    <param name="border"><border>12,0,0,0</border></param>
     <!--<param name="background"><image>frame-draggable-alpha.background</image></param>-->
 	<param name="background"><image>Party-Frame</image></param>
     <param name="minWidth"><int>2</int></param>
