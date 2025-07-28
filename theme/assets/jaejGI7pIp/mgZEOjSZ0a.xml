@@ -112,13 +112,16 @@
 			<param name="minHeight"><int>9</int></param>
 		</theme>
 		<theme name="resizeHandle" ref="-defaults"/>
-		    <theme name="maximizeButton" ref="-defaults">
-      <param name="background"><image>frame.minimizebutton.background</image></param>
-      <param name="minWidth"><int>9</int></param>
-      <param name="minHeight"><int>9</int></param>
-    </theme>
+	
+		<theme name="maximizeButton" ref="-defaults">
+			<param name="background"><image>frame.maximizebutton.background</image></param>
+			<param name="minWidth"><int>9</int></param>
+			<param name="minHeight"><int>9</int></param>
+		</theme>
 		<theme name="resizeHandle" ref="-defaults"/>
 	</theme>
+	
+	
 		
 	<theme name="button" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>alphabeta-highlight-button</font></param>

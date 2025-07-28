@@ -600,6 +600,14 @@
 			<alias ref="minimize-handle" tint="#b0ffffff"/>
 		</select>
 	</images>
+	
+	<images file="res/custom/j4iabP1aXf/Expand.png" filter="nearest">
+		<area name="maximize-handle" xywh="*"/>
+		<select name="frame.maximizebutton.background" tint="font-main-color">
+			<alias ref="maximize-handle" if="hover"/>
+			<alias ref="maximize-handle" tint="#b0ffffff"/>
+		</select>
+	</images>
 
 	<images file="res/custom/j4iabP1aXf/iconreel.png" filter="lineal">
 		<area name="icon.bookmark" xywh="0,0,16,16"/>
