@@ -31,7 +31,7 @@
   </theme>
 
   <theme name="encounter-counter-shiny" ref="resizableframe">
-    <param name="background"><image>ui-inputbox.background</image></param>
+    <param name="background"><image>Incubator-Window</image></param>
     <param name="border"><border>0,0,0,0</border></param>
 
     <param name="maxWidth"><int>498</int></param>
