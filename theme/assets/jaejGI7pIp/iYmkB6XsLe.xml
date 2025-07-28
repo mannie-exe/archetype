@@ -95,6 +95,12 @@
 			<param name="background"><image>label2.background</image></param>
 			<param name="border"><border>5</border></param>
 		</theme>
+		<theme name="ptslabel" ref="label">
+			<param name="font"><font>mechabold</font></param>
+			<param name="border"><border>5</border></param>
+			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+		</theme>
+		
 		<theme name="login-panel" ref="new-base-frame" allowWildcard="true">
 			<param name="background"><image>label1.background</image></param>
 			<param name="border"><border>20</border></param>
