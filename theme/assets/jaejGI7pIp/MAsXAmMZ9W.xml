@@ -1500,6 +1500,10 @@
 			<alias ref="Button-Color-Pure-Edge" inset="2"/>
 			<alias ref="Pokeball-Icon" tint="icon-color" inset="11,6"/>
 		</composed>
+		<composed name="Shiny-Window">
+			<alias ref="Window-Background-Highlight"/>
+			<alias ref="Pokeball-Icon" tint="icon-color" inset="10,15,0,0"/>
+		</composed>
 		<grid name="Battle-Pokeball-Icon" weightsX="0,0,1" weightsY="1,0,1" inset="0,0,0,0">
 			<area xywh="0,0,0,0" sizeOverwriteH="10" sizeOverwriteV="1"/>
 			<area xywh="0,0,0,0" sizeOverwriteH="38" sizeOverwriteV="1"/>
