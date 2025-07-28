@@ -53,7 +53,7 @@
     <theme name="content" ref="-defaults">
       <param name="border"><border>0,0,0,0</border></param>
       <theme name="button" ref="label">
-        <param name="font"><font>alphabeta-border</font></param>
+        <param name="font"><font>alphabeta-highlight-button</font></param>
         <param name="border"><border>7,7</border></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>
