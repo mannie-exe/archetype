@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
   <images file="res/custom/counter/Archetype.png" filter="nearest">
-  <area name="ArchetypeIcon" xywh="*"/>
+  <area name="ArchetypeIcon" xywh="*" inset="20,14,0,0" splitx="L17,R0" splity="T17,B0"/>
+  
   </images>
   
   <theme name="encounter-counter" ref="resizableframe">
