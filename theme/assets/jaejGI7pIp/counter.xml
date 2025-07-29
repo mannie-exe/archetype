@@ -4,7 +4,7 @@
 		<area name="ArchetypeIcon" xywh="*" inset="20,12,0,0" splitx="L23,R0" splity="T23,B0"/>
   </images>
   
-  <theme name="encounter-counter" ref="resizableframe">
+  <theme name="encounter-counter" ref="resizableframetwoelectricboogaloo">
 	<param name="overlay"><image>ArchetypeIcon</image></param>
 	<param name="closeButtonX"><int>-22</int></param>
     <param name="closeButtonY"><int>2</int></param>

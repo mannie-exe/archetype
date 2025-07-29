@@ -594,15 +594,23 @@
 			<alias ref="close-handle" tint="#b0ffffff"/>
 		</select>
 
-		<area name="minimize-handle" xywh="12,0,7,3" center="true" inset="-1,-1,-1,1"/>
+		<area name="minimize-handle" xywh="12,0,8,3" center="true" inset="0,0,0,0"/>
 		<select name="frame.minimizebutton.background" tint="font-main-color">
 			<alias ref="minimize-handle" if="hover"/>
 			<alias ref="minimize-handle" tint="#b0ffffff"/>
 		</select>
 	</images>
 	
+	<images file="res/custom/j4iabP1aXf/Header-Icons2.png" filter="lineal">
+		<area name="close-handle" xywh="0,0,12,12" inset="2,3,3,3"/>
+		<select name="frame.closebutton.background.encounter" tint="font-main-color">
+			<alias ref="close-handle" if="hover"/>
+			<alias ref="close-handle" tint="#b0ffffff"/>
+		</select>
+	</images>
+	
 	<images file="res/custom/j4iabP1aXf/Expand.png" filter="nearest">
-		<area name="maximize-handle" xywh="*"/>
+		<area name="maximize-handle" xywh="*" inset="-3,0,1,0"/>
 		<select name="frame.maximizebutton.background" tint="font-main-color">
 			<alias ref="maximize-handle" if="hover"/>
 			<alias ref="maximize-handle" tint="#b0ffffff"/>
