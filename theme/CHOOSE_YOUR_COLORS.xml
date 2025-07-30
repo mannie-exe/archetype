@@ -44,4 +44,9 @@ https://coolors.co/palettes/trending
 <constantDef name="zekrom-color"><color>#070b0b</color></constantDef> <!--default: #070b0b-->
 <constantDef name="zekrom-aura"><color>#00a5c9</color></constantDef> <!--default: #00a5c9-->
 
+<!-- Encounter Counter -->
+
+<constantDef name="ball-color"><color>#42b9ff</color></constantDef> <!--default: #42b9ff, red: #df0d35, green: #82d40c, yellow: #f6c328, purple: #7757ad, pink: #ff527b -->
+<constantDef name="ball-outline"><color>#ffffff</color></constantDef> <!--default: #ffffff-->
+
 </themes>
