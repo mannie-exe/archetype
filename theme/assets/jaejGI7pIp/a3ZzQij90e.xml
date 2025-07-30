@@ -149,6 +149,7 @@
 	<fontDef name="alphabeta-border-active-item" ref="alphabeta-border-HUD" offsetY="-20" color="icon-color"/>
 	<fontDef name="alphabeta-border-TC" filename="fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="font-sub-color" kerning="true" hinting="AutoSlight" size="11" size_cjk="11" border_width="0.3" border_color="#80000000"/>
 	<fontDef name="alphabeta-border" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#f1f2f3" kerning="true" hinting="AutoSlight" size="11" size_cjk="11" border_width="1.2" border_color="#233031"/>
+	<fontDef name="alphabeta-border-enc" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="encounter-font" kerning="true" hinting="AutoSlight" size="11" size_cjk="11" border_width="1.2" border_color="encounter-font-border"/>
 	<fontDef name="alphabeta-pc" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#a5b0b5" kerning="true" hinting="AutoSlight" size="10" size_cjk="10"/>
 	<fontDef name="alphabeta-border-red" ref="alphabeta-border-overworld" color="#f09999"/>
 	<fontDef name="alphabeta-border-friend" ref="alphabeta-border-overworld" color="#58ff64"/>

@@ -48,5 +48,10 @@ https://coolors.co/palettes/trending
 
 <constantDef name="ball-color"><color>#42b9ff</color></constantDef> <!--default: #42b9ff, red: #df0d35, green: #82d40c, yellow: #f6c328, purple: #7757ad, pink: #ff527b -->
 <constantDef name="ball-outline"><color>#ffffff</color></constantDef> <!--default: #ffffff-->
+<constantDef name="enc-button-color"><color>#ffffff</color></constantDef> <!--default: #ffffff-->
+<constantDef name="encounter-color-bar"><color>#42b9ff</color></constantDef> <!--default: #42b9ff-->
+<constantDef name="encounter-color-main"><color>#1c2328</color></constantDef> <!--default: #1c2328-->
+<constantDef name="encounter-font"><color>#f1f2f3</color></constantDef> <!--default: #f1f2f3-->
+<constantDef name="encounter-font-border"><color>#233031</color></constantDef> <!--default: #233031-->
 
 </themes>

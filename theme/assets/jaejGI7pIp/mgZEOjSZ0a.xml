@@ -149,7 +149,7 @@
 			<param name="minHeight"><int>5</int></param>
 		</theme>
 		<theme name="minimizeButton" ref="-defaults">
-			<param name="background"><image>frame.minimizebutton.background</image></param>
+			<param name="background"><image>frame.minimizebutton.background.enc</image></param>
 			<param name="minWidth"><int>9</int></param>
 			<param name="minHeight"><int>9</int></param>
 		</theme>

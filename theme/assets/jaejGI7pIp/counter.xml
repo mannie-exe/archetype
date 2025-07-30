@@ -11,12 +11,12 @@
     <param name="titleAreaBottom"><int>1</int></param>
     <param name="border"><border>12,0,0,0</border></param>
     <!--<param name="background"><image>frame-draggable-alpha.background</image></param>-->
-	<param name="background"><image>Party-Frame</image></param>
+	<param name="background"><image>Counter-Frame</image></param>
     <param name="minWidth"><int>2</int></param>
     <theme name="content" ref="-defaults">
       <theme name="label" ref="label">
         <param name="minWidth"><int>2</int></param>
-        <param name="font"><font>alphabeta-border</font></param>
+        <param name="font"><font>alphabeta-border-enc</font></param>
         <param name="border"><border>0,0,0,5</border></param>
         <param name="textAlignment"><enum type="alignment">BOTTOMLEFT</enum></param>
       </theme>
