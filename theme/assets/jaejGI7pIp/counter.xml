@@ -4,7 +4,7 @@
   <images file="res/custom/Yzkkn9zM8H/PureL.png" filter="nearest">
 		<area name="Button-Color-Pure" xywh="*" inset="11,8,0,0" splitx="L33,R0" splity="T33,B0" tint="sub-color"/>
   </images>
-  <theme name="encounter-counter" ref="resizableframetwoelectricboogaloo">
+  <theme name="encounter-counter" ref="counterresizableframe">
 	<param name="overlay"><image>Button-Color-Pure</image></param>
 	<param name="closeButtonX"><int>-22</int></param>
     <param name="closeButtonY"><int>2</int></param>

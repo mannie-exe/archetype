@@ -120,7 +120,7 @@
 		</theme>
 		<theme name="resizeHandle" ref="-defaults"/>
 	</theme>
-	<theme name="resizableframetwoelectricboogaloo" ref="-defaults" allowWildcard="true">
+	<theme name="counterresizableframe" ref="-defaults" allowWildcard="true">
         <param name="background"><image>ui-frame.background</image></param>
 		<param name="border"><border>30,0,0,0</border></param>
 		<param name="titleAreaTop"><int>0</int></param>
