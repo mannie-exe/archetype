@@ -1436,8 +1436,8 @@
 		</theme>
 	</theme>
 
-	<theme name="effects-slot" ref="-defaults">
-			<param name="background"><image>active-item-tl</image></param>
+	<!--<theme name="effects-slot" ref="button">
+		<param name="background"><image>active-item-tl</image></param>
 		<param name="minWidth"><int>24</int></param>
 		<param name="defaultGap"><dimension>0,0</dimension></param>
 		<param name="border"><border>8,28,4,28</border></param>
@@ -1445,8 +1445,24 @@
 		<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
 		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
 		<param name="font"><font>alphabeta-border-active-item</font></param>
-	</theme>
+	</theme>-->
 
+	<theme name="effects-slot" ref="button">
+		<param name="background"><image>active-item-tl</image></param>
+		<param name="defaultGap"><dimension>24,24</dimension></param>
+		<param name="border"><border>1</border></param>
+		<param name="namedGaps"><map/></param>
+		<param name="fadeDurationShow"><int>0</int></param>
+		<param name="fadeDurationHide"><int>0</int></param>
+		<param name="fadeDurationActivate"><int>0</int></param>
+		<param name="fadeDurationDeactivate"><int>0</int></param>
+		<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
+		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
+		<param name="minWidth"><int>50</int></param>
+		<param name="minHeight"><int>25</int></param>
+		<param name="font"><font>alphabeta-border-active-item</font></param>
+	</theme>
+	
 	<theme name="server-status-success" ref="label">
 		<param name="defaultGap"><dimension>24,24</dimension></param>
 		<param name="border"><border>10</border></param>
