@@ -614,7 +614,7 @@
 	</images>
 	
 	<images file="res/custom/j4iabP1aXf/Header-Icons2.png" filter="lineal">
-		<area name="close-handle" xywh="0,0,12,12" inset="2,3,3,3"/>
+		<area name="close-handle" xywh="0,0,9,12" inset="2,4,3,3"/>
 		<select name="frame.closebutton.background.encounter" tint="enc-button-color">
 			<alias ref="close-handle" if="hover"/>
 			<alias ref="close-handle" tint="#b0ffffff"/>
@@ -2070,16 +2070,16 @@
 		</grid>
 	</images>
 	
-	<images file="res/custom/counter/PureL.png" filter="nearest">
+	<images file="res/custom/counter/PureL.png" filter="lineal">
 		<area name="Encounter-Cover" xywh="*" inset="11,8,0,0" splitx="L33,R0" splity="T33,B0" tint="encounter-color-main"/>
   </images>
   
-  <images file="res/custom/counter/Pokeball-Icon2.png" filter="nearest">
+  <images file="res/custom/counter/Pokeball-Icon2.png" filter="lineal">
 		<area name="Ball-Inside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="ball-color"/>
   </images>
-  <images file="res/custom/counter/Pokeball-Icon.png" filter="nearest">
+  <images file="res/custom/counter/Pokeball-Icon.png" filter="lineal">
 		<area name="Ball-Outside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="ball-outline"/>
-		<composed name="Counter-Iconsettwo-electric-boogaloo">
+		<composed name="Counter-Iconset">
 			<alias ref="Encounter-Cover"></alias>
 			<alias ref="Ball-Inside"></alias>
 			<alias ref="Ball-Outside"></alias>
