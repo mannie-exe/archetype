@@ -12,7 +12,7 @@
 		<area name="Pure-Edge" xywh="*" sizeOverwriteH="2" sizeOverwriteV="2" splitx="L5,R5" splity="T5,B5"/>
 		<composed name="Main-Color-Pure-Edge" tint="main-color"><alias ref="Pure-Edge"/></composed>
 		<composed name="Sub-Color-Pure-Edge" tint="sub-color"><alias ref="Pure-Edge"/></composed>
-		<composed name="Encounter-Pure-Edge" tint="encounter-color-main"><alias ref="Pure-Edge"/></composed>
+		<composed name="Encounter-Pure-Edge" tint="counter-sub-color"><alias ref="Pure-Edge"/></composed>
 		<composed name="Button-Color-Pure-Edge" tint="button-color"><alias ref="Pure-Edge"/></composed>
 		<composed name="Accent-Color-Pure-Edge" tint="accent-color"><alias ref="Pure-Edge"/></composed>
 		<area name="Pure-Top-Edge" xywh="0,0,20,10" splitx="L5,R5" splity="T5,B0"/>

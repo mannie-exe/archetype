@@ -210,8 +210,8 @@
 		</select>
 
 		<composed name="Main-Color-Vertical-Bar-Right"><alias ref="Pure-Right-Edge-3px" tint="main-color"/></composed>
-		<composed name="Encounter-Vertical-Bar-Right"><alias ref="Pure-Right-Edge-3px" tint="encounter-color-bar"/></composed>
-		<composed name="Encounter-Vertical-Bar-Left"><alias ref="Pure-Left-Edge-3px" tint="encounter-color-bar"/></composed>
+		<composed name="Encounter-Vertical-Bar-Right"><alias ref="Pure-Right-Edge-3px" tint="counter-main-color"/></composed>
+		<composed name="Encounter-Vertical-Bar-Left"><alias ref="Pure-Left-Edge-3px" tint="counter-main-color"/></composed>
 		<animation name="Main-Color-Vertical-Bar-Right-Animation" timeSource="enabled">
 			<frame duration="1500" ref="Main-Color-Vertical-Bar-Right" tint="#ffffff"/>
 			<frame duration="1500" ref="Main-Color-Vertical-Bar-Right" tint="#60ffffff"/>
@@ -621,7 +621,7 @@
 		</select>
 		
 		<area name="minimize-handle-enc" xywh="12,0,8,3" center="true" inset="0,0,0,0"/>
-		<select name="frame.minimizebutton.background.enc" tint="enc-button-color">
+		<select name="frame.minimizebutton.background.enc" tint="counter-min-max-button-color">
 			<alias ref="minimize-handle" if="hover"/>
 			<alias ref="minimize-handle" tint="#b0ffffff"/>
 		</select>
@@ -629,7 +629,7 @@
 	
 	<images file="res/custom/j4iabP1aXf/Header-Icons2.png" filter="lineal">
 		<area name="close-handle" xywh="0,0,9,12" inset="2,5,3,3"/>
-		<select name="frame.closebutton.background.encounter" tint="enc-button-color">
+		<select name="frame.closebutton.background.encounter" tint="counter-min-max-button-color">
 			<alias ref="close-handle" if="hover"/>
 			<alias ref="close-handle" tint="#b0ffffff"/>
 		</select>
@@ -637,7 +637,7 @@
 	
 	<images file="res/custom/j4iabP1aXf/Expand.png" filter="nearest">
 		<area name="maximize-handle" xywh="*" inset="-3,0,1,0"/>
-		<select name="frame.maximizebutton.background" tint="enc-button-color">
+		<select name="frame.maximizebutton.background" tint="counter-min-max-button-color">
 			<alias ref="maximize-handle" if="hover"/>
 			<alias ref="maximize-handle" tint="#b0ffffff"/>
 		</select>
@@ -2085,14 +2085,14 @@
 	</images>
 	
 	<images file="res/custom/counter/PureL.png" filter="lineal">
-		<area name="Encounter-Cover" xywh="*" inset="11,8,0,0" splitx="L33,R0" splity="T33,B0" tint="encounter-color-main"/>
+		<area name="Encounter-Cover" xywh="*" inset="11,8,0,0" splitx="L33,R0" splity="T33,B0" tint="counter-sub-color"/>
   </images>
   
   <images file="res/custom/counter/Pokeball-Icon2.png" filter="lineal">
-		<area name="Ball-Inside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="ball-color"/>
+		<area name="Ball-Inside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="counter-ball-color"/>
   </images>
   <images file="res/custom/counter/Pokeball-Icon.png" filter="lineal">
-		<area name="Ball-Outside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="ball-outline"/>
+		<area name="Ball-Outside" xywh="*" inset="23,14,0,0" splitx="L33,R0" splity="T33,B0" tint="counter-ball-outline"/>
 		<composed name="Counter-Iconset">
 			<alias ref="Encounter-Cover"></alias>
 			<alias ref="Ball-Inside"></alias>
