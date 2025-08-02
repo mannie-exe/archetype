@@ -12,9 +12,10 @@ Encounter Tracker Style:
 7. Counter-Left-Icon.xml  
 8. Counter-Left.xml    
 
-Note: See the CHOOSE_YOUR_COLORS.xml file for additional Counter customization
+Note: See the CHOOSE_YOUR_COLORS.xml file to customize the Encounter Tracker colors
 
 -->
+
 <include filename="assets/Counter-Minimal-Right-Icon.xml"/>
 
 </themes>
