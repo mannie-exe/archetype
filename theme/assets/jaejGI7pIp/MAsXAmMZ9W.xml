@@ -187,6 +187,13 @@
 			<alias ref="Sub-Color-Pure-Edge" inset="5"/>
             <alias ref="Highlight-Overlay"/>
         </composed>
+		
+		<composed name="ui-frame.background-enc-left">
+			<alias ref="Shadow-Background"/>
+			<alias ref="Window-Main-Background"/>
+			<alias ref="Sub-Color-Pure-Edge" inset="-40"/>
+            <alias ref="Highlight-Overlay"/>
+        </composed>
 
 		<composed name="gc.background" inset="4,-3,-3,-4">
             <alias ref="ui-frame.background"/>
