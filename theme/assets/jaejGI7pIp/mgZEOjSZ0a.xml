@@ -1064,8 +1064,8 @@
     </theme>
 
     <theme name="top-left" ref="-defaults">
-      <param name="background"><image>label2.background</image></param>
-      <param name="border"><border>5</border></param>
+      <param name="background"><image>label2.gtl.background</image></param>
+	  <param name="border"><border>5</border></param>
       <param name="defaultGap"><dimension>5,5</dimension></param>
       <param name="smallGap"><dimension>8,8</dimension></param>
       <param name="mediumGap"><dimension>10,10</dimension></param>
