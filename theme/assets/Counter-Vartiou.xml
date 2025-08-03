@@ -2,11 +2,11 @@
 <themes>
   
 	<!-- Vartiou's Themeable Counters -->
-	<images file="theme/assets/counter/counter-theme.png">
+	<images file="theme/assets/counter/counter-theme.png" filter="lineal>
         <area name="counter-theme" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
     </images>
 	
-    <images file="theme/assets/counter/counter-theme.png">
+    <images file="theme/assets/counter/counter-theme.png" filter="lineal>
         <area name="counter-theme-expanded" xywh="*" inset="-17,-17,0,0" />
     </images>
 
