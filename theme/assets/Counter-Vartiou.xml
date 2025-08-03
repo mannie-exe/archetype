@@ -12,6 +12,8 @@
     </images>
 
     <theme name="encounter-counter" ref="resizableframe">
+	<param name="closeButtonX"><int>-22</int></param>
+    <param name="closeButtonY"><int>2</int></param>
     <param name="titleAreaTop"><int>8</int></param>
     <param name="titleAreaLeft"><int>11</int></param>
     <param name="titleAreaRight"><int>-1</int></param>
