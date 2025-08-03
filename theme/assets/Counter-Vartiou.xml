@@ -7,9 +7,6 @@
         <area name="counter-theme" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
     </images>
 	
-    <images file="theme/assets/counter/counter-theme.png" filter="lineal">
-        <area name="counter-theme-expanded" xywh="*" inset="-17,-17,0,0" />
-    </images>
 
   <theme name="encounter-counter" ref="counterresizableframe">
 	<!--<param name="overlay"><image>Counter-Iconset</image></param>-->
@@ -45,10 +42,6 @@
         <param name="border"><border>5</border></param>
       </theme>
     </theme>
-  </theme>
-  
-  <theme name="encounter-counter-expanded" ref="encounter-counter">
-      <param name="background"><image>counter-theme-expanded</image></param>
   </theme>
 
   <theme name="encounter-counter-shiny" ref="resizableframe">
