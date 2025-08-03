@@ -3,7 +3,13 @@
   
 	<!-- Vartiou's Themeable Counters -->
 
+	<images file="theme/assets/counter/counter-theme.png" filter="lineal">
+        <area name="counter-theme" xywh="0,0,217,69" splity="T52,B0" inset="-17,-17,0,0" />
+    </images>
 	
+    <images file="theme/assets/counter/counter-theme.png" filter="lineal">
+        <area name="counter-theme-expanded" xywh="*" inset="-17,-17,0,0" />
+    </images>
 
   <theme name="encounter-counter" ref="counterresizableframe">
 	<!--<param name="overlay"><image>Counter-Iconset</image></param>-->
@@ -16,7 +22,7 @@
     <param name="border"><border>12,0,0,0</border></param>
     <!--<param name="background"><image>frame-draggable-alpha.background</image></param>-->
 	<!--<param name="background"><image>Counter-Frame-R</image></param>-->
-	<!--<param name="background"><image>counter-theme</image></param>-->
+	<param name="background"><image>counter-theme</image></param>
     <param name="minWidth"><int>2</int></param>
     <theme name="content" ref="-defaults">
       <theme name="label" ref="label">
@@ -141,4 +147,9 @@
       </theme>
     </theme>
 	</theme>
+	
+  <theme name="encounter-counter-expanded" ref="encounter-counter">
+      <param name="background"><image>counter-theme-expanded</image></param>
+  </theme>
+  
 </themes>
