@@ -1,9 +1,21 @@
->**AnonymousPoke**: Lead dev, legacy Electric Blue / Exemplar
+## Theme
 
->**Realmadrid1809**: System-wide rework including animations 
+>**AnonymousPoke**: Lead dev, legacy Electric Blue / Exemplar themes
 
->**Lopspower**: Documentation regarding hexadecimal color codes
+>**Realmadrid1809**: System-wide theme rework, including animations 
+
+>**DucksAreBad**: Encounter Tracker theming and testing
+
+>**Cruzi**: Outlined atlas main.png variants
 
 >**Starnacle**: Concept art which inspired this project
 
->**All custom icons**: https://freeicons.io/
+&nbsp;
+
+## Resources
+
+[Official PokeMMO modding archive](https://github.com/PokeMMO/PokeMMO_Mods)
+
+[Hexadecimal color codes for transparencyy](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)
+
+[Custom icons (hud, window frames, etc.)](https://freeicons.io/)
