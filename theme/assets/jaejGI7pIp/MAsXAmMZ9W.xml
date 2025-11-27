@@ -85,6 +85,15 @@
 			<alias ref="ui-button.hover" if="selected"/>
 			<alias ref="ui-button.default"/>
 		</select>
+		
+		<select name="ui-item-button.background" sizeOverwriteH="29" sizeOverwriteV="29" inset="4,2,0,8">
+			<alias ref="ui-button.disabled-focus" if="disabled + (keyboardFocus | hover)"/>
+			<!--<alias ref="ui-button.disabled" if="disabled"/>-->
+			<alias ref="ui-button.hover" if="hover"/>
+			<!--<alias ref="ui-button.keyboardFocus" if="keyboardFocus"/>-->
+			<alias ref="ui-button.hover" if="selected"/>
+			<alias ref="ui-button.default"/>
+		</select>
 
 		<select name="ui-button-disabled.background" sizeOverwriteH="29" sizeOverwriteV="29">
 			<alias ref="ui-button.disabled-focus" if="keyboardFocus | hover"/>
@@ -451,7 +460,17 @@
 			<area xywh="0,0,7,6" center="true"/>
 			<area xywh="0,0,0,0" sizeOverwriteH="5" sizeOverwriteV="1"/>
 		</grid>
+		<grid name="ui-inv-sort-asc.background" weightsX="1,0,0" weightsY="1" tint="font-sub-color" inset="0,0,0,9">
+			<area xywh="0,0,0,0" sizeOverwriteH="1" sizeOverwriteV="1"/>
+			<area xywh="0,0,7,6" center="true"/>
+			<area xywh="0,0,0,0" sizeOverwriteH="5" sizeOverwriteV="1"/>
+		</grid>
 		<grid name="ui-sort-desc.background" weightsX="1,0,0" weightsY="1" tint="font-sub-color">
+			<area xywh="0,0,0,0" sizeOverwriteH="1" sizeOverwriteV="1"/>
+			<area xywh="0,6,7,6" center="true"/>
+			<area xywh="0,0,0,0" sizeOverwriteH="5" sizeOverwriteV="1"/>
+		</grid>
+		<grid name="ui-inv-sort-desc.background" weightsX="1,0,0" weightsY="1" tint="font-sub-color" inset="2,0,0,9">
 			<area xywh="0,0,0,0" sizeOverwriteH="1" sizeOverwriteV="1"/>
 			<area xywh="0,6,7,6" center="true"/>
 			<area xywh="0,0,0,0" sizeOverwriteH="5" sizeOverwriteV="1"/>
@@ -1947,6 +1966,11 @@
 			<alias ref="bag-tab.keyboardFocus" inset="1" tint="main-color" if="keyboardFocus"/>
 		</composed>
 		<composed name="Menu-HUD" sizeOverwriteV="50">
+			<alias ref="Sub-Color-Pure-Edge"/>
+			<alias ref="Pure-Left-Edge-3px" tint="main-color"/>
+			<alias ref="Pure-Right-Edge-3px" tint="main-color"/>
+		</composed>
+		<composed name="Menu-HUD-2" sizeOverwriteV="50" inset="-4,-6,-6,-6">
 			<alias ref="Sub-Color-Pure-Edge"/>
 			<alias ref="Pure-Left-Edge-3px" tint="main-color"/>
 			<alias ref="Pure-Right-Edge-3px" tint="main-color"/>
