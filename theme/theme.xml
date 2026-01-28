@@ -4,7 +4,7 @@
 	<include filename="CHOOSE_YOUR_LOOK.xml"/>
 	<include filename="fonts.xml"/>
 	<fontGen/>
-	<include filename="assets/jaejGI7pIp/gfx.xml"/>
+	<include filename="jaejGI7pIp/gfx.xml"/>
 	<include filename="init.xml"/>
 	<include filename="ui/main.xml"/>
 	<include filename="ui/battle.xml"/>
