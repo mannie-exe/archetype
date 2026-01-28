@@ -8,7 +8,6 @@
 			<theme name="tabbedpane" ref="base-tabbed-pane">
 				<param name="inputMap"><inputMapDef>
 					<action name="nextTab">CTRL TAB</action>
-					<action name="nextTab">CTRL TAB</action>
 					<action name="prevTab">CTRL SHIFT TAB</action>
 				</inputMapDef></param>
 			</theme>
