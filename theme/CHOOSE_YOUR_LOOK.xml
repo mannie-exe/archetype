@@ -7,7 +7,7 @@ Login screen background:
 2. Allstars.xml 
 3. Default.xml 
 -->
-<include filename="assets/Unova.xml"/>
+<include filename="backgrounds/Unova.xml"/>
 
 <!--
 Mouse cursors:
@@ -25,7 +25,7 @@ Theme shape:
 
 Note: To change the icons (moveset, type, etc.) you must also change the "sprite_atlas=" options in the theme's info.xml! Found at "mods\archetype\info.xml" 
 -->
-<include filename="assets/Round.xml"/>
+<include filename="shapes/Round.xml"/>
 
 <!-- 
 Speech bubbles: 
@@ -33,6 +33,6 @@ Speech bubbles:
 2. Default-White.xml 
 3. Default-Black.xml 
 -->
-<include filename="assets/Archetype.xml"/>
+<include filename="speech-bubbles/Archetype.xml"/>
 
 </themes>

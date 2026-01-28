@@ -17,6 +17,6 @@ Note: See the CHOOSE_YOUR_COLORS.xml file to customize the Encounter Tracker col
 Note2: For Vartiou Counters, also place the "counter-theme.png" from Vartiou's zip mod "data\themes\default\res\" into Archetype's "theme\assets\jaejGI7pIp\res\counter\vartiou\"
 -->
 
-<include filename="assets/Counter-Minimal-Right-Icon.xml"/>
+<include filename="counters/Counter-Minimal-Right-Icon.xml"/>
 
 </themes>
