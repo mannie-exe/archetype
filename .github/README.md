@@ -2,16 +2,21 @@
 
 Archetype is a custom user interface for the online video game [PokeMMO](https://pokemmo.com/).
 
-# Before installing, review issue https://github.com/ssjshields/archetype/issues/76
+# Installation
 
 Instructions:
-Open the ZIP, drag the `archetype-beta-july25` folder into `data\mods`
+1. [Download the theme](https://github.com/ssjshields/archetype/archive/refs/heads/112225-beta.zip)
+2. Open the ZIP, drag the `112225-beta` folder into `data\mods`
 
 Navigate to PokeMMO Mod Management
 
 Select the Archetype Theme Mod, restart your client
 
 Select Archetype Theme from the Settings -> Interface menu, restart your client
+
+## Alternative method
+
+You can also use [this website](https://archetype-installer.vercel.app/) for customizing your Archetype theme before packing the .zip file. Just choose your favorite options and press `Build & Export`
 
 &nbsp;
 # Features
