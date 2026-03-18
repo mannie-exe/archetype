@@ -1,2 +1,12 @@
+*.pak
+*.atlas
+resources.zip
+*/*
+!sprites/atlas
+!themes/archetype
+!icons
+!mods
+
+# OS residuals
 .DS_Store
-example_mod.zip
+Thumbs.db
